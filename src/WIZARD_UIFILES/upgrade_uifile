@@ -7,19 +7,44 @@
         "desc": "Choose the apps you run on this NAS. A shortcut is added to the DSM main menu for each one.",
         "subitems": [
           {
+            "key": "wiz_audiobookshelf",
+            "desc": "Audiobookshelf",
+            "defaultValue": true
+          },
+          {
+            "key": "wiz_homeassistant",
+            "desc": "Home Assistant",
+            "defaultValue": true
+          },
+          {
+            "key": "wiz_musicassistant",
+            "desc": "Music Assistant",
+            "defaultValue": true
+          },
+          {
+            "key": "wiz_pocketid",
+            "desc": "Pocket ID",
+            "defaultValue": true
+          },
+          {
+            "key": "wiz_portainer",
+            "desc": "Portainer",
+            "defaultValue": true
+          },
+          {
             "key": "wiz_sonarr",
             "desc": "Sonarr",
-            "defaultValue": true
+            "defaultValue": false
           },
           {
             "key": "wiz_radarr",
             "desc": "Radarr",
-            "defaultValue": true
+            "defaultValue": false
           },
           {
             "key": "wiz_prowlarr",
             "desc": "Prowlarr",
-            "defaultValue": true
+            "defaultValue": false
           },
           {
             "key": "wiz_bazarr",
@@ -70,8 +95,33 @@
     "items": [
       {
         "type": "textfield",
-        "desc": "Port of each app. Prefix with https: for apps served over HTTPS (for example https:8091).",
+        "desc": "Port of each app. Prefix with https: for apps served over HTTPS (for example https:9443).",
         "subitems": [
+          {
+            "key": "wiz_audiobookshelf_port",
+            "desc": "Audiobookshelf",
+            "defaultValue": "13378"
+          },
+          {
+            "key": "wiz_homeassistant_port",
+            "desc": "Home Assistant",
+            "defaultValue": "8123"
+          },
+          {
+            "key": "wiz_musicassistant_port",
+            "desc": "Music Assistant",
+            "defaultValue": "8095"
+          },
+          {
+            "key": "wiz_pocketid_port",
+            "desc": "Pocket ID",
+            "defaultValue": "1411"
+          },
+          {
+            "key": "wiz_portainer_port",
+            "desc": "Portainer",
+            "defaultValue": "9000"
+          },
           {
             "key": "wiz_sonarr_port",
             "desc": "Sonarr",

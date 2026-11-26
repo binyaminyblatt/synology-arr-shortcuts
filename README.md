@@ -12,6 +12,11 @@ DSM only shows shortcuts for installed packages, so apps that run in Docker (Con
 
 | App | Default port |
 |---|---|
+| Audiobookshelf | 13378 |
+| Home Assistant | 8123 |
+| Music Assistant | 8095 |
+| Pocket ID | 1411 |
+| Portainer | 9000 |
 | Sonarr | 8989 |
 | Radarr | 7878 |
 | Prowlarr | 9696 |
